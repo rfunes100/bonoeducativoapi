@@ -15,6 +15,7 @@ namespace bonoeducativo.Aplicacion.mapeo
         public MappingProfile()
         {
             CreateMap<associated, associateddto>();
+            CreateMap<relative_associated, relative_associateddto>();
         }
     }
 }
